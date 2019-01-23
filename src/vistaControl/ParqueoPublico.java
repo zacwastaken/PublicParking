@@ -14,7 +14,7 @@ public class ParqueoPublico extends Application {
             FXMLLoader.load(getClass().getResource("ParqueoPublico.fxml"));
 
          Scene scene = new Scene(root); // attach scene graph to scene
-         stage.setTitle("Parqueo Público"); // displayed in window's title bar
+         // To add a line
          stage.setScene(scene); // attach scene to stage
          stage.show(); // display the stage
       }
