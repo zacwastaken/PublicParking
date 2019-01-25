@@ -63,6 +63,7 @@ public class ParqueoPublicoController {
     	String horaFinal = parqueoPublico.darHoraFinal();
     	horaFinalTextField.setText(horaFinal);
     	double valorAPagar = parqueoPublico.calcularValorAPagar();
-    	valorAPagarTextField.setText(CURRENCY.format(valorAPagar));
+    	// To modify line
+    	valorAPagarTextField.setText(valorAPagar+"");
     }    
 }
